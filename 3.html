@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediTrack Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+    .left-panel {
+      background-color: #2b2dff;
+      color: white;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    .left-panel img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    .left-panel p {
+      text-align: center;
+      line-height: 1.5;
+      font-size: 18px;
+      max-width: 400px;
+    }
+    .right-panel {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+    }
+    .login-box {
+      width: 80%;
+      max-width: 350px;
+      text-align: center;
+    }
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #48b6ff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .login-box button:hover {
+      background-color: #339ae6;
+    }
+    .social-login {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+    .social-login img {
+      width: 40px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .social-login img:hover {
+      transform: scale(1.1);
+    }
+    .forgot-password {
+      display: block;
+      margin-top: 10px;
+      color: #666;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="left-panel">
+    <img src="D:\aru\WhatsApp Image 2025-10-29 at 21.47.26_0fff8e98.jpg" alt="Health illustration" />
+    <p>Discover the power of personalized health insights and seamless tracking with MediTrack.</p>
+  </div>
+
+  <div class="right-panel">
+    <div class="login-box">
+      <h2>Log in</h2>
+      <form>
+        <input type="email" placeholder="Email address" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Log in</button>
+      </form>
+      <a href="#" class="forgot-password">Forgotten password?</a>
+      <p>or log in with</p>
+      <div class="social-login">
+        <img src="facebook-icon.png" alt="Facebook" />
+        <img src="google-icon.png" alt="Google" />
+        <img src="twitter-icon.png" alt="Twitter" />
+        <img src="apple-icon.png" alt="Apple" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
